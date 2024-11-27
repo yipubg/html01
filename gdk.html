@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国故事</title>
+    <style>
+        body {
+            font-family: 'SimSun', '宋体', serif;  /* 设置字体为宋体 */
+            text-align: center;  /* 标题居中 */
+        }
+        .container {
+            display: grid;  /* 使用CSS网格布局 */
+            grid-template-columns: repeat(2, 1fr);  /* 创建2列 */
+            grid-template-rows: repeat(2, auto);  /* 创建2行 */
+            gap: 20px;  /* 每个部分间距 */
+            margin-top: 20px;  /* 上间距 */
+        }
+        .section {
+            border: 1px solid #ccc;  /* 边框样式 */
+            padding: 10px;  /* 内边距 */
+            width: 100%;  /* 设为占满可用宽度 */
+        }
+        img {
+            max-width: 100%;  /* 设置图片最大宽度 */
+            height: auto;  /* 保持图片高度比例 */
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://zhonghua.5000yan.com/" style="text-decoration: none; color: inherit;">中国故事</a></h1>
+    <div class="container">
+        <div class="section">
+            <img src="图片\神话故事.jpg" alt="传说故事"> 
+            <h4><a href="神话故事.html" style="text-decoration: none;color:inherit;">神话故事</a></h4>
+        </div>
+        <div class="section">
+            <img src="图片\历史故事.jpg" alt="历史故事">
+            <h4><a href="历史故事.html" style="text-decoration: none;color:inherit;">历史故事</a></h4>
+        </div>
+        <div class="section">
+            <img src="图片\党史故事.jpg" alt="党史故事">
+            <h4><a href="革命故事.html" style="text-decoration: none;color:inherit;">革命故事</a></h4>
+        </div>
+        <div class="section">
+            <img src="图片\新时代1.jpg" alt="新时代">
+            <h4><a href="新时代.html" style="text-decoration: none;color:inherit;">新时代</a></h4>
+        </div>
+    </div>
+    <footer>
+      <p style="color: red; font-size: 20px;">特别鸣谢：</p>
+       <p><a href="https://zhonghua.5000yan.com/" style="text-decoration: none;color:rgb(29, 7, 116)">中华上下五千年</a></p>
+       <p><a href="http://www.gushigu.cn/" style="text-decoration: none;color: rgb(29, 7, 116);">中华民间故事网</a></p> 
+      <p><a href="https://www.dpm.org.cn/Home.html" style="text-decoration: none;color: rgb(29, 7, 116);">故宫历史网</a></p>
+      <p><a href="http://www.xinhuanet.com/" style="text-decoration: none;color: rgb(29, 7, 116);">新华网</a></p>
+    </footer>
+</body>
+</html>
